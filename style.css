@@ -1,0 +1,323 @@
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.header-section {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h4 {
+    margin-left: 170px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #131313;
+
+}
+
+nav ul {
+    display: flex;
+    margin-right: 200px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 14px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/*--------- Banner Style--------- */
+.banner-section h1 {
+    margin-left: 460px;
+    margin-right: 500px;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.banner-section p {
+    margin-left: 270px;
+    margin-right: 280px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+}
+
+.banner-section button {
+    margin-left: 37%;
+    margin-top: 10px;
+
+}
+
+.banner-image img {
+    width: 930px;
+    height: 500px;
+    margin-left: 170px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.primary-btn {
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* --------------------------------------Section Two Style---------------------------- */
+.section-two {
+    display: flex;
+
+}
+
+.section-two-left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 170px;
+    gap: 50px;
+    /* row-gap: 10px; */
+    /* border: 1px solid red; */
+    width: 100px;
+    margin-bottom: 90px;
+    /* height: 400px; */
+    margin-top: 90px;
+}
+
+.section-two-left img {
+
+    /* width: 250px;
+    height: 250px; */
+    /* margin-left: 200px; */
+    margin-top: 50px;
+
+
+}
+
+.section-two-right {
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 300px;
+    margin-left: 680px;
+    margin-top: 360px;
+}
+
+.section-two-right h1 {
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.section-two-right p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* .image-one {
+    display: flex;
+} */
+
+/* --------------------------------Section Three Style------------------------- */
+.section-three {
+    display: flex;
+    width: 1440px;
+    height: 1059px;
+    background-color: aqua;
+}
+
+.section-three-head {
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+.section-three-head h1 {
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    border: 1px solid red;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-bottom: 24px;
+
+}
+
+.section-three-head p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 526px;
+    height: 78px;
+    margin-bottom: -10px;
+
+}
+
+.section-info {
+    width: 486px;
+    height: 131px;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-left: 180px;
+    margin-right: 20px;
+    padding: 10px;
+
+}
+
+.section-info h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.section-info p {
+    width: 450px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.section-three-right img {
+    width: 600px;
+    height: 759px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.section-three-right h3 {
+    width: 242px;
+    height: 100px;
+    background-color: #FF900E;
+    text-align: center;
+    margin-top: -110px;
+    padding-top: 10px;
+    position: absolute;
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* Section-Four-Style */
+.section-four {
+    margin-left: 200px;
+}
+
+.section-four h3 {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.section-four p {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    height: 20px;
+    width: 450px;
+    margin-bottom: 90px;
+}
+
+/* Section-Four-Box-Style */
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 100px;
+}
+
+.section-four-box {
+    width: 111px;
+    height: 141px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    padding: 40px;
+    /* margin-left: 10px; */
+}
+
+.section-four-box img {
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+.section-four-box h2 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.section-four-box h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    text-align: center;
+    margin-top: -20px;
+
+}
+
+/* ------------------------Section Five Style------------------- */
+.sponsor-info {
+    /* border: 1px solid gray; */
+    width: 500px;
+    /* height: 400px; */
+    margin-left: 36%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.sponsor-section h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponsor-section p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.sponsor-image {
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 1px solid darkcyan;
+    margin-top: 100px;
+}
+
+.sponsor-image img {
+    
+    width: 100.83px;
+    height: 50px;
+    color: #FF900E;
+    
+}
+/* Copyright Section Style */
+.copyright-section{
+    width: 700px;
+    height: 100px;
+    background-color: bisque;
+    color: white;
+}
