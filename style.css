@@ -324,3 +324,26 @@ nav ul li a {
     padding: 20px;
     margin-top: 50px;
 }
+/* contact us section */
+.contact-us-section{
+    margin-left: 30%;
+    width: 900px;
+    height: 550px;
+    background-color: aqua;
+    margin-top: 100px;
+}
+.section-title h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 45px;
+    color: #727272;
+}
+label{
+    margin-left: 100px;
+}
+input{
+    margin-left: 100px;
+}
+textarea{
+    margin-left: 100px;
+}
